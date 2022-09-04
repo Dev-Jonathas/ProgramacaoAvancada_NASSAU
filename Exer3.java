@@ -1,4 +1,4 @@
-/*import java.util.Scanner;
+import java.util.Scanner;
 
 public class Exer3 {
     public  static  void  main (String[]args){
@@ -24,6 +24,6 @@ public class Exer3 {
 
 }
 }
-*/
+
 
 
