@@ -1,0 +1,71 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch External Terminal",
+            "request": "launch",
+            "console": "externalTerminal",
+            "mainClass": ""
+        },
+
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exer1",
+            "request": "launch",
+            "mainClass": "Exer1",
+            "projectName": "ProgramacaoAvancada_NASSAU_2c38c767"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exer2",
+            "request": "launch",
+            "mainClass": "Exer2",
+            "projectName": "ProgramacaoAvancada_NASSAU_2c38c767"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exer3",
+            "request": "launch",
+            "mainClass": "Exer3",
+            "projectName": "ProgramacaoAvancada_NASSAU_2c38c767"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exer4",
+            "request": "launch",
+            "mainClass": "Exer4",
+            "projectName": "ProgramacaoAvancada_NASSAU_2c38c767"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exer5",
+            "request": "launch",
+            "mainClass": "Exer5",
+            "projectName": "ProgramacaoAvancada_NASSAU_2c38c767"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exer6",
+            "request": "launch",
+            "mainClass": "Exer6",
+            "projectName": "ProgramacaoAvancada_NASSAU_2c38c767"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exer7",
+            "request": "launch",
+            "mainClass": "Exer7",
+            "projectName": "ProgramacaoAvancada_NASSAU_2c38c767"
+        }
+    ]
+}
