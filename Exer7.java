@@ -23,7 +23,7 @@ public class Exer7{
         N %= 5;
         n2 = N /2;
         N %= 2;
-        n1 = 1;
+        n1 = N;
 
         System.out.println(valor);
         System.out.println(n100 + "Nota(s) de R$ 100,00");
