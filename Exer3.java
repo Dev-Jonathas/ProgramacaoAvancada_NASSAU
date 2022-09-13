@@ -7,11 +7,11 @@ public class Exer3 {
     String nomeVendedor;
     double salarioFixo, vendasMes;
   
-    System.out.print("Digite o nome do vendedor:");
+    System.out.println("Digite o nome do vendedor:");
      nomeVendedor = scan.nextLine();
-    System.out.print("Informe seu salário fixo:");
+    System.out.println("Informe seu salário fixo:");
      salarioFixo = scan.nextDouble();
-    System.out.print("Informe o total de vendas feito por mês em dinheiro:");
+    System.out.println("Informe o total de vendas feito por mês em dinheiro:");
     vendasMes = scan.nextDouble();
 
     double valorReceber = salarioFixo + (vendasMes * 0.15);

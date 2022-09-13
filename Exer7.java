@@ -6,11 +6,13 @@ public class Exer7{
 
         Scanner scan = new Scanner(System.in);
 
-        int valor,N, n100 = 0, n50 = 0, n20 = 0, n10 = 0, n5 = 0, n2 = 0, n1 = 1;
+        int N, n100 = 0, n50 = 0, n20 = 0, n10 = 0, n5 = 0, n2 = 0, n1 = 1;
 
+        
+        System.out.println("Digite o valor: ");
         N = scan.nextInt();
-
-        valor = N;
+        
+        
         n100 = N /100;
         N %= 100;
         n50 = N /50;
@@ -25,7 +27,8 @@ public class Exer7{
         N %= 2;
         n1 = N;
 
-        System.out.println(valor);
+       
+        
         System.out.println(n100 + "Nota(s) de R$ 100,00");
         System.out.println(n50 + "Nota(s) de R$ 50,00");
         System.out.println(n20 + "Nota(s) de R$ 20,00");
